@@ -1,8 +1,8 @@
 import { validate } from 'class-validator'
 import { Router, Request, Response } from 'express'
 import { getCustomRepository, getRepository } from 'typeorm'
-import UserRepository from '../repositories/UserRepository'
-import User from '../models/User'
+import UserRepository from '../repositories/user.repository'
+import User from '../models/user.model'
 
 const userRouter = Router()
 
